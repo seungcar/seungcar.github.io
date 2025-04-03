@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+.row > * {
+  padding: 0;
+}
+
+.btn {
+  background-color: #6fbaf8;
+  border: none;
+  padding: 6px 24px;
+  border-radius: 2px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+.text-skyblue {
+  color: #6fbaf8;
+}
+
+.line {
+  border-right: 3px solid #e9e9e9;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.card {
+  border: none;
+}
+
+.box {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.waterdrop {
+  font-size: 80px;
+}
+
+.main-container {
+  width: 100%;
+  background-color: #f7f9fc;
+  margin: 0;
+  padding: 50px;
+}
+
+.profile {
+  padding: 30px 0;
+}
+
+.border-bt-skyblue {
+  border-bottom: 3px solid #6fbaf8;
+}
+
+.border-bt-gray {
+  border-bottom: 3px solid #e9e9e9;
+}
+
+.line2 {
+  margin: 40px auto 20px;
+  width: 96%;
+}
+
+.pl-5per {
+  padding-left: 5%;
+}
+
+.font-small {
+  font-size: 14px;
+}
+
+.pl-5per p {
+  padding-right: 0;
+}
+
+.card-title {
+  font-size: 28px;
+}
+
+.p-3per {
+  padding: 3%;
+}
+
+.profile-container .box h4 {
+  margin-bottom: 20px;
+}
+
+.badge {
+  color: black;
+  font-weight: 400;
+  border: 1px solid #d3d3d3;
+  padding: 6px 14px;
+  margin-bottom: 10px;
+}
+
+.line3 {
+  margin: 0 auto;
+  width: 96%;
+}
+
+.pc-only {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .profile-container > .box:nth-child(1) {
+    height: 70%;
+  }
+
+  .h-100per {
+    height: 100%;
+  }
+
+  .pc-only {
+    display: block;
+  }
+}
